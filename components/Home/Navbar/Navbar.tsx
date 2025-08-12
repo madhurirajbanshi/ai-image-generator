@@ -53,9 +53,7 @@ const Navbar = ({ openNav }: Props) => {
         ))}
       </div>
 
-      <div className="flex items-center space-x-5 md:space-x-8 text-white mr-8 md:mr-16">
-        <ShoppingCart className="w-6 h-6 cursor-pointer" />
-        <SearchIcon className="w-6 h-6 cursor-pointer" />
+      <div className="flex items-center text-white mr-8 md:mr-16">
         <Menu onClick={openNav} className="w-6 h-6 cursor-pointer md:hidden" />
       </div>
     </div>

@@ -97,8 +97,8 @@ const Hero = () => {
             {loading ? 'Generating...' : 'Generate'}
           </Button>
         </div>
-        <div className="w-full flex flex-col items-center gap-2 ">
-          <p className="text-gray-300 font-medium">Popular Tags:</p>
+        <div className="w-full flex flex-col items-center  ">
+          <p className="text-gray-300  mb-5 font-medium">Popular Tags:</p>
           <div className="flex flex-wrap justify-center gap-2">
             <Button variant={"secondary"} onClick={() => handleTagClick('Creative abstract art')}>Creative</Button>
             <Button variant={"secondary"} onClick={() => handleTagClick('Hyperrealistic portrait')}>Hyperreality</Button>
