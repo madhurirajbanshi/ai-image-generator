@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Navlinks } from '@/constant/constant';
-import { Menu, SearchIcon, ShoppingCart } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 type Props = {
   openNav: () => void;
